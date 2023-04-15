@@ -1,0 +1,9 @@
+# Rust ignores
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# Visual Studio Code ignores
+.vscode/*
+.history/
+*.vsix
