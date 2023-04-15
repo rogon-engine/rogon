@@ -1,0 +1,21 @@
+[package]
+name = "rogon"
+version = "0.1.0"
+edition = "2021"
+description = "Open Source Game Engine"
+readme = "README.md"
+repository = "https://github.com/rogon-engine/rogon"
+license = "MPL-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "rogon"
+path = "sources/binary/main.rs"
+
+[lib]
+name = "rogon"
+path = "sources/library.rs"
+
+
+[dependencies]
